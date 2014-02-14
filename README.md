@@ -99,13 +99,13 @@ And in Linux/Unix services often have their own text based parsers to parse conf
 
 Each of the cases above involves bad practises that is listed in the programmer's guide book. **Don't Repeat Yourselves (DRY)** principle is well-known and established, as is **Keep It Simple, Stupid (KISS)**.
 
-Our object with LIN is simple.
+Our objectives with LIN is simple.
 - Language and application independence.
 - Allow anyone to create configuration files without repeating useless syntax.
 - Keep syntax to a minimum to maximise readability.
 - Allow configurations to be streamed, compressed and encrypted for machine-to-machine communications.
 
-In short, we want human programmers to workless to achieve the same result, and machines to use less resources when synchronising configurations.
+In short, we want human programmers to work less to achieve the same result, and machines to use less resources when synchronising configurations.
 
 We want to be lazy. This is what you can expect to write using LIN
 
@@ -117,7 +117,7 @@ This is the simpliest example where 3 fields are created on line 1, each assigne
 
 On the 2nd line, a new field is created that is assigned to the pervious "2nd level" field, which in this case is "default" and is then assigned the value "Asia/Hong_Kong"
 
-Essentially LIN is a "smart" top-down notation language where fields are spit by levels and previous field names are remembered and default values can be assigned to arrays of similar configurations.
+Essentially LIN is a "smart" top-down notation language where fields are spit by levels, previous field names are remembered and default values can be assigned to arrays of similar configurations.
 
 A database array configuration under LIN can look something like this...
 
