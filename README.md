@@ -1,7 +1,7 @@
 LIN (Lazy Information Notation)
 ===
 
-LIN is a family of open data notation specifications (with some reference implementations) designed to make it easy both humans and automated systems to create, read and transfer.
+LIN is a family of open data notation specifications (with some reference implementations) designed to make it easy for both humans and automated systems to create, read and transfer.
 
 It is created primarily to replace and standardize text-based configuration files across computer systems for Lightwisters' internal systems, in the future, the specification may also include Java Object Serialisation.
 
